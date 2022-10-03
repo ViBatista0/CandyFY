@@ -1,0 +1,51 @@
+body{
+    background-color: #d0f4f4 !important;
+}
+#home{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    min-height: 700px;
+    background:url(../img/donutsback.jpg);;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+#home .row{
+    padding-top: 90px;
+}
+
+#home h1{
+    font-weight: bolder !important;
+    color: #d0f4f4 !important;
+}
+#navbar{
+    background-color: #ffc0d7 !important;
+}
+
+.card{
+    margin-bottom: 40px;
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    height: 400px;
+}
+.btn{
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: cadetblue;
+}
+/*#d0f4f4,#eed5ff,#ffc0d7,#fff9c1,#cfebd2*/
